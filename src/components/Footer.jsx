@@ -8,7 +8,7 @@ const navigationLinks = [
 ];
 
 const solutionLinks = [
-  { label: "Negozi e Retail", href: "#soluzioni" },
+  { label: "Negozi e Retail", href: "/negozio" },
   { label: "RSA e strutture assistenziali", href: "#soluzioni" },
   { label: "Tour Operator e Agenzie", href: "#soluzioni" },
   { label: "B&B e strutture ricettive", href: "#soluzioni" },

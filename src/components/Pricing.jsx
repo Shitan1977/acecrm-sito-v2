@@ -13,7 +13,7 @@ const sectorSolutions = [
       "Spedizioni",
     ],
     button: "Scopri la soluzione Retail",
-    href: "#contatti",
+    href: "/negozio",
   },
   {
     name: "RSA e strutture assistenziali",

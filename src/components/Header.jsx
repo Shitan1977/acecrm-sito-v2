@@ -16,6 +16,10 @@ const navigationLinks = [
     href: "#soluzioni",
   },
   {
+    label: "ACECRM Negozio",
+    href: "/negozio",
+  },
+  {
     label: "Come funziona",
     href: "#come-funziona",
   },
