@@ -14,13 +14,14 @@ const solutionLinks = [
   { label: "B&B e strutture ricettive", href: "#soluzioni" },
 ];
 
-export default function Footer() {
+export default function Footer({ home = "" }) {
+  const resolve = (href) => (href.startsWith("#") ? home + href : href);
   return (
     <footer className="section-dark ace-footer">
       <div className="container">
         <div className="row gx-5 gy-4">
           <div className="col-lg-4 col-md-6">
-            <a href="#home" aria-label="Torna alla home di AceCRM">
+            <a href={resolve("#home")} aria-label="Torna alla home di AceCRM">
               <img
                 src="/logo-acecrm.png"
                 className="logo-footer ace-footer-logo"
@@ -61,7 +62,7 @@ export default function Footer() {
               <ul>
                 {navigationLinks.map((link) => (
                   <li key={link.label}>
-                    <a href={link.href}>{link.label}</a>
+                    <a href={resolve(link.href)}>{link.label}</a>
                   </li>
                 ))}
               </ul>
@@ -75,7 +76,7 @@ export default function Footer() {
               <ul>
                 {solutionLinks.map((link) => (
                   <li key={link.label}>
-                    <a href={link.href}>{link.label}</a>
+                    <a href={resolve(link.href)}>{link.label}</a>
                   </li>
                 ))}
               </ul>

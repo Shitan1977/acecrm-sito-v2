@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const navigationLinks = [
   {
@@ -38,6 +39,8 @@ const navigationLinks = [
 ];
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const prefix = usePathname() === "/" ? "" : "/";
+  const resolve = (href) => (href.startsWith("#") ? prefix + href : href);
 
   const closeMenu = () => setMenuOpen(false);
 
@@ -90,7 +93,7 @@ export default function Header() {
               <div className="de-flex-col">
                 <div id="logo">
                   <a
-                    href="#home"
+                    href={resolve("#home")}
                     aria-label="AceCRM - Homepage"
                     onClick={closeMenu}
                   >
@@ -119,7 +122,7 @@ export default function Header() {
                       <li key={item.href}>
                         <a
                           className="menu-item"
-                          href={item.href}
+                          href={resolve(item.href)}
                           onClick={closeMenu}
                         >
                           {item.label}
