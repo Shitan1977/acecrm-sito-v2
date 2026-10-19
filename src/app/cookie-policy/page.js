@@ -1,4 +1,4 @@
-import LegalPage, { OwnerBlock, Todo } from "@/components/LegalPage";
+import LegalPage, { OwnerBlock } from "@/components/LegalPage";
 
 export const metadata = {
   title: "Cookie Policy",
@@ -26,18 +26,20 @@ export default function CookiePolicyPage() {
 
       <h2>Cookie tecnici</h2>
       <p>
-        Sono necessari al funzionamento del sito e non richiedono consenso. Il sito utilizza
-        cookie tecnici <Todo>elencare nome e durata, se presenti</Todo>.
+        Sono necessari al funzionamento del sito e non richiedono consenso. Il sito non
+        installa cookie propri né di terze parti sul dispositivo dell’utente.
       </p>
 
       <h2>Cookie analitici e di profilazione</h2>
       <p>
-        <Todo>Indicare se il sito usa strumenti come Google Analytics o Meta Pixel. Se sì, questi cookie vengono installati solo dopo il consenso dell’utente tramite il banner cookie. Se no, sostituire con: “Il sito non utilizza cookie analitici né di profilazione.”</Todo>
+        Il sito non utilizza cookie analitici né di profilazione.
       </p>
 
       <h2>Servizi di terze parti</h2>
       <p>
-        <Todo>Elencare eventuali contenuti incorporati (font, mappe, video) che possono impostare cookie, con link alle rispettive informative</Todo>.
+        Il sito non incorpora contenuti di terze parti (font esterni, mappe, video) che
+        possano impostare cookie. I link verso demo.acecrm.it e app.acecrm.it portano ad
+        ambienti distinti, con una propria informativa.
       </p>
 
       <h2>Come gestire o disattivare i cookie</h2>

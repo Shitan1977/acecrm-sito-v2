@@ -33,13 +33,17 @@ export default function TerminiCondizioniPage() {
 
       <h2>4. Demo e prova</h2>
       <p>
-        La demo su demo.acecrm.it ha scopo esplorativo. <Todo>Indicare eventuale periodo di prova gratuito e relative condizioni</Todo>.
+        La demo su demo.acecrm.it ha scopo esplorativo e consente di provare il servizio prima
+        dell’acquisto. L’accesso non è libero: per ottenere le credenziali occorre richiederle
+        scrivendo a <a href="mailto:info@acecrm.it?subject=Richiesta%20demo%20ACECRM">info@acecrm.it</a>{" "}
+        oppure chiamando il <a href="tel:+393482352185">348 235 2185</a>.
+      </p>
+      <p>
+        La demo è gratuita e ha una durata di 30 giorni a decorrere dalla consegna delle
+        credenziali. Alla scadenza l’accesso viene disattivato, salvo attivazione di un piano a
+        pagamento. Le credenziali sono personali e non possono essere cedute a terzi.
       </p>
 
-      <h2>5. Prezzi, fatturazione e rinnovo</h2>
-      <p>
-        <Todo>Indicare piani e prezzi (IVA esclusa), periodicità di fatturazione, modalità di pagamento, rinnovo automatico e modalità di disdetta</Todo>.
-      </p>
 
       <h2>6. Uso consentito</h2>
       <p>
@@ -51,8 +55,7 @@ export default function TerminiCondizioniPage() {
       <h2>7. Dati dell’utente</h2>
       <p>
         I dati inseriti nella piattaforma restano di proprietà dell’utente. Il trattamento dei
-        dati personali è descritto nella <a href="/privacy-policy">Privacy Policy</a>.{" "}
-        <Todo>Se necessario, richiamare l’accordo di nomina a responsabile del trattamento</Todo>.
+        dati personali è descritto nella <a href="/privacy-policy">Privacy Policy</a>.
       </p>
 
       <h2>8. Proprietà intellettuale</h2>
@@ -65,13 +68,11 @@ export default function TerminiCondizioniPage() {
       <h2>9. Disponibilità e responsabilità</h2>
       <p>
         Il fornitore si impegna a mantenere il servizio disponibile con la dovuta diligenza, ma
-        non garantisce l’assenza di interruzioni per manutenzione o cause di forza maggiore.{" "}
-        <Todo>Indicare eventuale livello di servizio (uptime) e limiti di responsabilità</Todo>.
+        non garantisce l’assenza di interruzioni per manutenzione o cause di forza maggiore.
       </p>
 
       <h2>10. Recesso e sospensione</h2>
       <p>
-        <Todo>Indicare condizioni di recesso e, se vendi a consumatori, il diritto di recesso di 14 giorni ex D.Lgs. 206/2005</Todo>.{" "}
         Il fornitore può sospendere il servizio in caso di violazione dei presenti termini o
         mancato pagamento.
       </p>

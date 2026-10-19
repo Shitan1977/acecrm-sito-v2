@@ -23,7 +23,6 @@ export default function PrivacyPolicyPage() {
         <li>Dati di navigazione (indirizzo IP, browser, pagine visitate), raccolti automaticamente.</li>
         <li>Dati forniti volontariamente tramite email, telefono o moduli di contatto e richiesta demo (nome, email, telefono, messaggio).</li>
         <li>Dati di accesso e di utilizzo della piattaforma AceCRM, per i clienti del servizio.</li>
-        <li><Todo>Altri dati raccolti, es. newsletter: da confermare</Todo></li>
       </ul>
 
       <h2>3. Finalità e base giuridica</h2>
@@ -32,7 +31,7 @@ export default function PrivacyPolicyPage() {
         <li>Erogare il servizio AceCRM e gestire il rapporto contrattuale (art. 6.1.b).</li>
         <li>Adempiere a obblighi di legge, fiscali e contabili (art. 6.1.c).</li>
         <li>Garantire la sicurezza del sito e prevenire abusi (legittimo interesse, art. 6.1.f).</li>
-        <li>Invio di comunicazioni commerciali, solo previo consenso (art. 6.1.a): <Todo>da confermare</Todo>.</li>
+        <li>Invio di comunicazioni commerciali, solo previo consenso (art. 6.1.a).</li>
       </ul>
 
       <h2>4. Destinatari dei dati</h2>
@@ -42,19 +41,14 @@ export default function PrivacyPolicyPage() {
         <Todo>indicare i fornitori utilizzati</Todo>. I dati non vengono diffusi né venduti a terzi.
       </p>
 
-      <h2>5. Trasferimenti extra UE</h2>
-      <p>
-        <Todo>Indicare se i fornitori trasferiscono dati fuori dallo Spazio Economico Europeo e con quali garanzie (es. clausole contrattuali standard)</Todo>.
-      </p>
-
-      <h2>6. Tempi di conservazione</h2>
+      <h2>5. Tempi di conservazione</h2>
       <p>
         I dati di contatto sono conservati per il tempo necessario a gestire la richiesta; i dati
         contrattuali per la durata del rapporto e per i successivi termini di legge (di norma 10
-        anni per i dati fiscali). <Todo>Confermare i tempi</Todo>.
+        anni per i dati fiscali).
       </p>
 
-      <h2>7. Diritti dell’interessato</h2>
+      <h2>6. Diritti dell’interessato</h2>
       <p>
         Puoi chiedere in qualsiasi momento accesso, rettifica, cancellazione, limitazione,
         portabilità dei dati e opporti al trattamento, scrivendo a{" "}
@@ -63,12 +57,12 @@ export default function PrivacyPolicyPage() {
         <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">garanteprivacy.it</a>).
       </p>
 
-      <h2>8. Cookie</h2>
+      <h2>7. Cookie</h2>
       <p>
         Per informazioni sui cookie consulta la <a href="/cookie-policy">Cookie Policy</a>.
       </p>
 
-      <h2>9. Modifiche</h2>
+      <h2>8. Modifiche</h2>
       <p>
         Questa informativa può essere aggiornata; la versione in vigore è sempre quella
         pubblicata su questa pagina.
