@@ -2,7 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 export const owner = {
-  name: <span className="ace-legal-todo">[Ragione sociale]</span>,
+  name: "Freestyle di Adele Iorio",
   address: "III Trav. Arcangelo Astone, 29 – 80026 Casoria (NA)",
   vat: "07983261210",
   email: "info@freestyleweb.it",
