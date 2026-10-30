@@ -1,3 +1,5 @@
+import AutoScrollTrack from "./AutoScrollTrack";
+
 const advantages = [
   {
     number: "01",
@@ -82,7 +84,7 @@ export default function Testimonials() {
       </div>
 
       <div className="container-fluid relative z-2">
-        <div className="ace-testimonials-track ace-advantages-track">
+        <AutoScrollTrack className="ace-testimonials-track ace-advantages-track">
           {advantages.map((advantage) => (
             <article
               className="bg-dark-2 rounded-1 p-30 ace-testimonial-card ace-advantage-card"
@@ -106,7 +108,7 @@ export default function Testimonials() {
               <p>{advantage.description}</p>
             </article>
           ))}
-        </div>
+        </AutoScrollTrack>
       </div>
     </section>
   );

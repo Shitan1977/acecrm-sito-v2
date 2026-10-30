@@ -38,6 +38,63 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* Header mobile (template cyberguard): sfondo scuro, altrimenti testo bianco su bianco */
+
+/* Gli script del template non sono caricati: niente classe header-mobile, quindi si usa solo il media query */
+
+@media (max-width: 992px) {
+  header.transparent {
+    position: relative;
+    background: var(--ace-dark) !important;
+    color: #ffffff;
+  }
+
+  header.transparent .de-flex {
+    position: relative;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  header.transparent #logo img {
+    max-height: 50px;
+    width: auto;
+  }
+
+  header.transparent #menu-btn {
+    display: block;
+    color: #ffffff;
+  }
+
+  header.transparent #mainmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 6px 20px 10px !important;
+    overflow: visible;
+    background: #15162f;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.35);
+  }
+
+  header.transparent #mainmenu.ace-menu-open {
+    display: block;
+  }
+
+  header.transparent #mainmenu a.menu-item {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 575px) {
+  header.transparent .menu_side_area .btn-line {
+    display: none;
+  }
+}
+
 /* Barra superiore */
 
 .ace-topbar {
@@ -299,8 +356,18 @@ a {
   gap: 24px;
   padding: 10px 24px 30px;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: thin;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: grab;
+}
+
+.ace-testimonials-track::-webkit-scrollbar {
+  display: none;
+}
+
+.ace-testimonials-track.is-dragging {
+  cursor: grabbing;
+  user-select: none;
 }
 
 .ace-testimonial-card {
